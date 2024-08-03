@@ -35,4 +35,27 @@ console.log(obj3)
 console.log(tinderuser)
 console.log(Object.keys(tinderuser))
 console.log(Object.values(tinderuser))
- 
+
+
+
+// destructioring the object
+
+const course={
+    cname: "js",
+    cprice: "4567",
+    cteacher: "ayush"
+
+}
+const{cteacher}=course
+console.log(cteacher)
+
+// {
+//     "name": "ayush",
+//     "csname":"js in hindi",
+//     "price":"free"
+// }
+[
+    {},
+    {}
+]
+
